@@ -1,0 +1,35 @@
+.main{
+    display:flex;
+    max-width: 1620px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.main h3{
+    top: 1015px;
+    padding:8px;
+    background:linear-gradient(#E46B88,#F390A8);
+    color:white;
+    left: 1190px;
+    width: 232px;
+    height: 28px;
+    border-radius: 23px;
+    opacity: 1;
+}
+.main p {
+    color:#00374F;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.cards{
+
+}
+.card{
+    border-top:1px solid #6969697c ;
+    border-bottom:1px solid #6969697c ;
+}
+.textcard{
+    max-width: 712px;
+}
+.backwoman{
+    background:#f1f1f17c;
+}

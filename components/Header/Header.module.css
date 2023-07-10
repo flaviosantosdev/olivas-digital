@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:32px;
+    color:#4C4C4C;
+    font-weight: 400;
+    max-width: 1620px;
+    margin: 0 auto;
+}
+.menu ul{
+    display: flex;
+    gap:15px;
+}
+.button{
+    border:0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 246px;
+    color:white;
+    font-weight: bold;
+    height: 44px;
+    background: transparent linear-gradient(90deg, #508F59 0%, #8ECB53 100%) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+}

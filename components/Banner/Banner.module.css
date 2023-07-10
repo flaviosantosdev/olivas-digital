@@ -1,0 +1,29 @@
+.banner{
+    height: 412px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background:url('/assets/banner.png');
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    left: 1300px;
+    top:180px;
+    z-index:1;
+}
+.submenu{
+    display: flex;
+    max-width: 1620px;
+    margin: 0 auto;
+    
+}
+.submenu h1 {
+    text-align: center;
+    font-size:3rem;
+    margin-left: 350px;
+    color:#36B6C7;
+}
+.submenu h1 span{
+    color:#00374E;
+}

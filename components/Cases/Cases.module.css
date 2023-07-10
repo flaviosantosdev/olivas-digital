@@ -1,0 +1,12 @@
+.cases{
+   max-width: 1080px;
+   margin:0 auto;
+}
+.cardcase{
+    max-width: 300px;
+    border:1px solid gray;
+    border-radius: 8px;
+}
+.cardcase img{
+    max-width: 250px;
+}

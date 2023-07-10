@@ -1,0 +1,85 @@
+.footer{
+    margin:0 auto;
+    padding: 64px;
+    background: #F0F1F5;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+}
+.footercontainer{
+    max-width: 1290px;
+    margin:0 auto;
+    
+}
+.topfooter{
+    text-align: center;
+}
+.topfooter form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    
+}
+.input input{
+    padding: 16px;
+    margin:0 auto;
+    width: 368px;
+    height: 48px;
+    border: 2px solid #E6E6E6;
+    border-radius: 7px;
+    opacity: 1;
+}
+.topfooter p {
+    text-align: center;
+}
+.titlefooter{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #00374E;
+    font-size: 2.5rem;
+}
+.titlefooter span{
+    color:#36B6C7;
+}
+.btnfooter{
+    width: 208px;
+    height: 48px;
+    border:none;
+    color:white;
+    font-size: 1.2rem;
+    background: transparent linear-gradient(90deg, #E46B88 0%, #F390A8 100%) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+}
+.input{
+    display: flex;
+    padding: 8px;
+}
+.input input{
+    padding: 8px;
+}
+.bottomfooter{
+    background: #022776;
+    padding:32px 250px;
+    display: flex;
+    justify-content: space-between;
+    color:#4B8AA4;
+}
+.footercontainer{
+    position: relative;
+}
+.meialua{
+    position: absolute;
+    right:-300px;
+
+}
+.onda{
+    position: absolute;
+    left:-310px;
+    top:-60px;
+}

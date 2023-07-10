@@ -1,0 +1,59 @@
+.mainnews{
+    background: #8ECB53;
+    padding-top:64px;
+    color: white;
+}
+.mainnewscontainer{
+    max-width: 1280px;   
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color:#00374F;
+    position:relative;
+}
+.textnews{
+    margin-right: 20px;
+}
+.cardnewstext{
+    width: 340px;
+    color:white;
+    border-bottom: 1px solid white;
+    padding:8px;
+    
+}
+.cardnews img{
+    max-width: 540px;
+}
+.cardnews{
+    background-color: white;
+    padding:18px;
+    max-width: 650px;
+    border-top-left-radius: 120px;
+    border:1px solid red;
+}
+.btnnews{
+    
+    width: 208px;
+    height: 48px;
+    background: #8ECB53;
+    border: 1px solid #FFFFFF;
+    border-radius: 23px;
+}
+.shape{
+    position: absolute;
+    max-width: 250px;
+    left: -312px;
+    top:630px;
+}
+.onda{
+    position: absolute;
+    max-width: 250px;
+    right: -310px;
+    top:-140px
+}
+.semicirculo{
+    position: absolute;
+    max-width: 550px;
+    left: -580px;
+    top:-450px;
+}
