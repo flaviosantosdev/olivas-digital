@@ -12,7 +12,6 @@ abra o terminal e coloque o seguinte comando
 
  em seguida utilize npm run dev
 
-## o Site esta no ar via ver~sao desenvolvimento Vercel no link abaixo
-https://olivas-digital.vercel.app/
+
 
 ##Docker não foi utilizado pois se tratou apenas de frontend 🚀🚀
