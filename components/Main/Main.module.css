@@ -20,16 +20,50 @@
     font-weight: bold;
     font-size: 1.4rem;
 }
-.cards{
-
-}
 .card{
     border-top:1px solid #6969697c ;
     border-bottom:1px solid #6969697c ;
 }
 .textcard{
     max-width: 712px;
+    color:#807e7e;
+
 }
 .backwoman{
     background:#f1f1f17c;
+    padding: 32px;
+}
+.backwoman .textcard{
+    color:#807e7e;
+    font-size: 1.1rem;
+}
+.btnmainsnews{
+    width: 208px;
+    height: 48px;
+    border: 1px solid #E46B88;
+    border-radius: 23px;
+    color:#E46B88;
+    font-size: 1.2rem;
+    margin:18px;
+    background:transparent;
+}
+@media (max-width:1090px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 0;
+
+    }
+    .img{
+        display: none;
+    }
+    .textcard{
+        max-width: 100%;
+        color:#807e7e;
+    
+    }
+    .main h3{
+        margin:12px auto;
+    }
 }

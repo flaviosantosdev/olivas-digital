@@ -1,6 +1,25 @@
+
+.topheadernav{
+    max-width: 1620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+.topheader{
+   display: flex;
+   align-items: center;
+   margin-right: auto;
+}
 .header{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding:32px;
     color:#4C4C4C;
     font-weight: 400;
@@ -23,4 +42,24 @@
     background: transparent linear-gradient(90deg, #508F59 0%, #8ECB53 100%) 0% 0% no-repeat padding-box;
     border-radius: 23px;
     opacity: 1;
+    transition: .3s;
+}
+.button:hover{
+    opacity: .8;
+}
+@media (max-width:1645px) {
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+        padding:15px
+    }
+}
+@media (max-width:1345px) {
+    .header{
+        flex-direction: column;
+         align-items: center;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
 }

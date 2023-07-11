@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import "react-toastify/dist/ReactToastify.css";
+
 
 
 function MyApp({ Component, pageProps }) {
