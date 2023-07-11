@@ -18,6 +18,20 @@
     margin: 0 auto;
     
 }
+.submenu h1{
+    position: relative;
+    
+}
+.submenu h1::after{
+    content:"";
+    width: 20%;
+    border-radius: 4px;
+    height: 6px;
+    background:#36B6C7;
+    position: absolute;
+    left: 150px;
+    bottom:-5px;
+}
 .submenu h1 {
     text-align: center;
     font-size:3rem;

@@ -3,6 +3,7 @@
     max-width: 1620px;
     justify-content: space-evenly;
     margin: 0 auto;
+    color:#00374F
 }
 .main h3{
     top: 1015px;
@@ -21,8 +22,8 @@
     font-size: 1.4rem;
 }
 .card{
-    border-top:1px solid #6969697c ;
-    border-bottom:1px solid #6969697c ;
+    border-top:1px solid #bebebe7c ;
+    border-bottom:1px solid #bebebe7c ;
 }
 .textcard{
     max-width: 712px;

@@ -29,12 +29,20 @@ export const Header = () => {
                     <li><Link href="/">Conteúdos de comunicação</Link></li>
                 </ul>
             </nav>
-            <div>
-                <button className={styles.button}>
-                    <img src="/assets/email.png" alt="Fale com especialista" />
-                    <span>Fale com especialista</span>
-                </button>
-            
+            <div className={styles.btntop}>
+               <div className={styles.topheader}>
+                    <Image src="/assets/linguagem.png" width={15} height={15} />
+                    <p>Português</p>
+               </div>
+                <div className={styles.contentbtn}>
+                    <button className={styles.button}>
+                        <img src="/assets/email.png" alt="Fale com especialista" />
+                        <span>Fale com especialista</span>
+                    </button>
+                    <div className={styles.luneta}>
+                        <img src="/assets/lupa.png" alt="" />
+                    </div>
+                </div>
             </div>
         </header>
     </>

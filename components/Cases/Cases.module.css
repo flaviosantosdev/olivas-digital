@@ -1,12 +1,50 @@
 .cases{
-   max-width: 1080px;
+   max-width: 1640px;
    margin:0 auto;
 }
+.titlecases{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3rem;
+    color:#00374E;
+    position: relative;
+   
+
+}
+.titlecases::after{
+    content:"";
+    width:45px;
+    border-radius: 4px;
+    height: 6px;
+    background:#36B6C7;
+    position: absolute;
+    bottom:-8px;
+}
+.cases button{
+    width: 125px;
+    height: 36px;
+    background: transparent linear-gradient(90deg, #E46B88 0%, #F390A8 100%) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    display: block;
+    border:none;
+    font-size: 1.1rem;
+    color:white;
+    transition: .3s;
+}
+.cases button:hover{
+    opacity: .8;
+}
 .cardcase{
-    max-width: 300px;
-    border:1px solid gray;
+    box-sizing: border-box;
+    height: auto;
+    min-height: 390px;
+    border:1px solid rgb(214, 212, 212);
     border-radius: 8px;
+    margin:6px;
+    padding: 8px;
 }
 .cardcase img{
-    max-width: 250px;
+    width: 100%;
+    min-height: 350px;
 }

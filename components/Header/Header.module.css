@@ -47,11 +47,38 @@
 .button:hover{
     opacity: .8;
 }
+.btntop{
+    position: relative;
+}
+.topheader{
+    position: absolute;
+    top:-40px;
+}
+.luneta{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.luneta img{
+    width: 25px;
+    height: 25px;
+}
+.contentbtn{
+    display: flex;
+    gap:2px
+}
 @media (max-width:1645px) {
     .header{
         display: flex;
         justify-content: space-evenly;
         padding:15px
+    }
+    .topheader{
+        display: none;
     }
 }
 @media (max-width:1345px) {
