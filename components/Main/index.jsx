@@ -4,7 +4,7 @@ import styles from './Main.module.css'
 export const Main = () => {
   return (
     <section className={styles.main}>
-            <div>
+            <div className={styles.img}>
                 <img src="/assets/woman.png" alt="" />
                 <div className={styles.backwoman}>
                     <h3>CUSTOMER EXPERIENCE</h3>
@@ -33,10 +33,10 @@ export const Main = () => {
                 </p>
             </div>
             <div className={styles.card}>
-                <h3>CUSTOMER EXPERIENCE</h3>
-                <p>Feedback de clientes:</p>
-                <p>transforme tudo em dados e <br />
-                    obtenha melhores resultados
+                <h3>TECNOLOGIA</h3>
+                <p>Chatbot cognitivo:</p>
+                <p>o que é e<br />
+                    como pode ajudar ?
                 </p>
             </div>
             <div className={styles.card}>
@@ -48,18 +48,22 @@ export const Main = () => {
             </div>
             <div className={styles.card}>
                 <h3>CUSTOMER EXPERIENCE</h3>
-                <p>Feedback de clientes:</p>
-                <p>transforme tudo em dados e <br />
-                    obtenha melhores resultados
+                <p>Atendimento ao cliente:</p>
+                <p>quais as<br />
+                    expectativas da Geração <br />
+                    Millennials? <br />
                 </p>
             </div>
             <div className={styles.card}>
                 <h3>CUSTOMER EXPERIENCE</h3>
-                <p>Feedback de clientes:</p>
-                <p>transforme tudo em dados e <br />
-                    obtenha melhores resultados
+                <p>Open Banking:</p>
+                <p>o sucesso do<br />
+                    sistema no Brasil
                 </p>
             </div>
+            <button className={styles.btnmainsnews}>
+                Ver mais
+            </button>
             </div>
     </section>
   )
